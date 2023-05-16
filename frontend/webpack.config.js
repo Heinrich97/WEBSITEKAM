@@ -4,7 +4,7 @@ module.exports = {
  entry: {
    index: './src/index.js',
  },
- mode:'development',
+ mode:'production',
  plugins: [
     new HtmlWebpackPlugin({
       template: "index.html",
