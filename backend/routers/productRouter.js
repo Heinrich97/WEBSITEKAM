@@ -10,7 +10,7 @@ import Product from '../models/productModel';
 const productRouter = express.Router();
 const storage = multer.diskStorage({
   destination: (req,file,cb) =>{
-    cb(null,'./Backend/uploads/')
+    cb(null,'./backend/uploads/')
   },
   filename: (req,file,cb) => {
     cb(null,file.originalname)
